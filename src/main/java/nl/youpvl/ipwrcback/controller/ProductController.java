@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 @Slf4j
 @RequiredArgsConstructor
 @RequestMapping("/product")
-@CrossOrigin("http://localhost:4200/**")
+@CrossOrigin("http://68.183.13.128/**")
 public class ProductController {
     private final ProductRepository productRepository;
 

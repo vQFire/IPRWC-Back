@@ -34,7 +34,7 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 @RequiredArgsConstructor
 @Slf4j
 @RequestMapping("/user")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("http://68.183.13.128")
 public class UserController {
     private final UserService userService;
     private final ProductRepository productRepository;
